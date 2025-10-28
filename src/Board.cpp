@@ -213,13 +213,13 @@ Tile Board::getTile(int x, int y) {
 	if (x >= 0 && x < m_width && y >= 0 && y < m_height) {
 		return m_grid[y][x];
 	}
-	throw std::invalid_argument("bad position passed into function");
+	throw std::invalid_argument("Invalid position passed into function");
 }
 GamePiece Board::getPiece(int x, int y) {
 	if (x >= 0 && x < m_width && y >= 0 && y < m_height) {
 	  return m_grid[y][x].getPiece();
 	}
-	throw std::invalid_argument("bad position passed into function");
+	throw std::invalid_argument("Invalid position passed into function");
 }
 int Board::getHeight() const{
 	return m_height;
