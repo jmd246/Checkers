@@ -29,9 +29,6 @@ public:
 	//buffer objects
 	GLuint vbo, vao;
 	Shader m_shader;
-
-
-
 	//set up the objects
 	void init(int segments);
 	

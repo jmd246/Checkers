@@ -57,10 +57,6 @@ public:
 
 private:
 
-
-
-
-
 	int m_width, m_height;
 
 	float tileWidth, tileHeight;

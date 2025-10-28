@@ -15,7 +15,6 @@ void main() {
     // Scale the quad by the tile size before offset
     vec2 scaledPos = aPos * tileSize;
     vec4 worldPos = model * vec4(scaledPos + offset, 0.0, 1.0);
-
     gl_Position = proj * worldPos;
     vColor = aTileColor;
 }

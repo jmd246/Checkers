@@ -15,13 +15,10 @@ void frameSizeCallBack(GLFWwindow* window,int width,int height) {
 	Board* board = static_cast<Board*>(glfwGetWindowUserPointer(window));
 	if (board)
 		board->setBoardSizeAndScale(width, width);
-
-
 	else {
 		std::cout << "failed";
 	}
 }
-
 int main (){
 
 	//initialize glfw
