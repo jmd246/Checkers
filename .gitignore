@@ -1,0 +1,95 @@
+# --- CMake build files ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# --- Build directories ---
+build/
+build-*/
+out/
+bin/
+lib/
+
+# --- Compiled object files ---
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.i*
+*.pdb
+*.mod
+*.a
+*.lib
+
+# --- ImGui demo binaries and caches ---
+imgui.ini
+*.log
+
+# --- Generated files (GLSL -> SPIR-V, etc.) ---
+*.spv
+*.cache
+*.shaderbin
+
+# --- IDE-specific files ---
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# VSCode
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/c_cpp_properties.json
+
+# --- OS-specific junk ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.nfs*
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# --- Dependencies (optional) ---
+# Uncomment if you use submodules or vendor libraries
+# vendor/
+# external/
+# third_party/
+
+# --- ImGui Docking workspace states (optional) ---
+imgui.ini
